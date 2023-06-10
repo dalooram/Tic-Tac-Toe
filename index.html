@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+   <div class="text">
+    Tic Tac Toe
+   </div> 
+   <div class="wrapper">
+       <div class="container">
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+           <button class="button-option"></button>
+       </div>
+       <button id="restart">Restart</button>
+   </div>
+
+   <div class="popup hide">
+       <p id="message">Sample Message</p>
+       <button id="new-game">New Game</button>
+   </div>
+   
+   <div id="overlay" class="hide">
+       <div class="overlay-message-box">
+           <p id="overlay-message">Computer thinking...</p>
+       </div>
+   </div>
+   
+    <!-- Script -->
+    <script src="./static/script.js"></script>
+</body>
+</html>
